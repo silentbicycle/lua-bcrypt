@@ -1,5 +1,7 @@
 Simple bcrypt wrapper for Lua.
 
+***Please note that this depends on bcrypt, which AFAIK is only included in the base system on OpenBSD.*** I have not yet successfully built it on Linux, but will add a Makefile if I get it to build on Debian. (At a glance, Debian does not appear to have a package for a crypt library with bcrypt.)
+
 **Basic usage:**
 
     require "bcrypt"
